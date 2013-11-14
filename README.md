@@ -1,4 +1,4 @@
-distributed-voronoi
+Distributed Voronoi
 ===================
 
-A 2D distributed Voronoi Diagram implementation in python 
+A 2D distributed Voronoi Diagram implementation in python
