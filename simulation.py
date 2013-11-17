@@ -19,7 +19,7 @@ VoronoiDiagram.start()
 global_settings.ENVIRONMENT2D_SHAPE = VoronoiDiagram.panel_dim()
 
 
-# generates the network with 10 hosts
+# generates the network with 100 hosts
 net_gen = NetworkGenerator(n_count=99, n_min=1, n_max=100)
 net = net_gen.generate_random_network()
 
@@ -51,6 +51,4 @@ for node in net.nodes():
 
 
 VoronoiDiagram.stop()
-# Writes
-#write_npickle(net, "net.gz")
 sim.reset()
