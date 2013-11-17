@@ -2,8 +2,6 @@
 
 import pygame
 
-from src.delaunay import Delaunay
-
 
 class Window:
 
