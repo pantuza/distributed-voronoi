@@ -3,7 +3,7 @@ Created on 22/09/2013
 
 @author: Gustavo Pantuza
 '''
-from __future__ import division
+
 class Point2D(tuple):
     '''
     Tuple representing a 2D point 
@@ -19,4 +19,3 @@ class Point2D(tuple):
 
     def __str__(self):
         return self.__repr__()
-
